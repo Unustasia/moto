@@ -1,56 +1,57 @@
-* {
+/* Общие стили */
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #af4c68;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
-
-nav {
-    margin-top: 1rem;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-main {
-    padding: 2rem;
-}
-
-.greeting {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu, .vk {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: pink; /* цвет по вашему выбору */
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  section {
+    margin-bottom: 15px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
     object-fit: cover;
-    border: 5px solid #af4c68;
-    margin-top: 1rem;
-}
-
-.audio {
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    color: white;
     text-align: center;
-    margin-top: 2rem;
-}
-
+  }
+  
 footer {
     background-color: #333;
     color: white;
