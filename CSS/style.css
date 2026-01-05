@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     /* Распределяет элементы по краям */
     align-items: center;
-    padding: 8px;
+    padding: 16px;
     background-color: #bfbfbf;
 }
 
