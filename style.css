@@ -30,7 +30,7 @@ header {
 }
 
 .menu {
-    padding: 8px;
+    padding: 8px 16px;
     border: none;
     border-radius: 50px;
     color: #013220;
@@ -59,22 +59,23 @@ header {
 
 main {
     padding: 16px;
+    
+}
+
+main div:not(:last-child) {
+    margin-bottom: 16px;
+    
 }
 
 img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1; /* ширина и высота 1 к 1*/
     border-radius: 16px;
     object-fit: cover;
 }
 
-figure {
-    margin: 0;
-}
-
-figcaption {
-    margin: 0;
-
+img.helmet-img {
+    border-radius: 1000px;
 }
 
 .text-overlay {
