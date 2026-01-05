@@ -7,12 +7,20 @@ html {
 }
 
 header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     /* Распределяет элементы по краям */
     align-items: center;
     padding: 16px;
     background-color: #bfbfbf;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
 }
 
 .logo {
@@ -21,17 +29,8 @@ header {
     color: #013220;
 }
 
-.menu-container {
-    flex: 1;
-    /* Занимает оставшееся пространство */
-    display: flex;
-    justify-content: center;
-    /* Центрирует меню по горизонтали */
-}
-
 .menu {
     padding: 8px 16px;
-    border: none;
     border-radius: 50px;
     color: #013220;
     background-color: #dda0dd;
@@ -74,6 +73,10 @@ img {
     object-fit: cover;
 }
 
+main div:first-child {
+    margin-top: 68px;
+}
+
 img.helmet-img {
     border-radius: 1000px;
 }
@@ -92,5 +95,4 @@ footer {
     color: white;
     padding: 8px; 
     bottom: 0;
-    width: 100%;
 }
