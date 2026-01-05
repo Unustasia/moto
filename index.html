@@ -4,36 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
+    <title>Мой сайт про мотоциклы</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="logo">MyLogo</div>
-        <button class="menu">menu</button>
-        <button class="vk">BK</button>
+    
+            <div class="menu-container">
+            <a href="about.html" class="menu">menu</a>
+            </div>
+        
+        <div class="social-container">
+            <button class="vk">ВК</button>
+            <a href="#1" class="tch">ТГ</a>
+        </div>
     </header>
 
     <main>
-        <section class="motorcycle-img">
-            <img src="redmoto.png" alt="Мотоцикл">
-            <div class="text-overlay">Here must be some text but I didn’t want to do it.</div>
-        </section>
-        <section class="helmet-img">
+        <div class="motorcycle-img">
+            <figure>
+                <img src="redmoto.png" alt="Мотоцикл">
+                <figcaption class="text-overlay">Here must be some text but I didn’t want to do it.</figcaption>
+            </figure>
+        </div>
+        <div class="helmet-img">
             <img src="flowerhemlet.png" alt="Шлем с цветами">
-        </section>
-        <section class="hand-helmet-img">
+        </div>
+        <div class="hand-helmet-img">
             <img src="handhem.png" alt="Рука со шлемом">
-        </section>
-        <section class="bike-img">
+        </div>
+        <div id="1" class="bike-img">
             <img src="greenmoto.png" alt="Мотоцикл у гаража">
-        </section>
+        </div>
     </main>
 
 
     <footer>
-        <p>&copy; 2026</p>
+        <p>MADE WITH LOVE &copy; 2026</p>
     </footer>
 
 </body>

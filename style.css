@@ -1,63 +1,95 @@
 /* Общие стили */
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  header {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+header {
     display: flex;
     justify-content: space-between;
+    /* Распределяет элементы по краям */
     align-items: center;
-    padding: 10px;
-    background-color: #f5f5f5;
-  }
-  
-  .logo {
-    font-size: 18px;
+    padding: 8px;
+    background-color: #bfbfbf;
+}
+
+.logo {
+    font-size: 24px;
     font-weight: bold;
-  }
-  
-  .menu, .vk {
-    padding: 8px 16px;
+    color: #013220;
+}
+
+.menu-container {
+    flex: 1;
+    /* Занимает оставшееся пространство */
+    display: flex;
+    justify-content: center;
+    /* Центрирует меню по горизонтали */
+}
+
+.menu {
+    padding: 8px;
     border: none;
-    border-radius: 5px;
-    background-color: pink; /* цвет по вашему выбору */
+    border-radius: 50px;
+    color: #013220;
+    background-color: #dda0dd;
     cursor: pointer;
-  }
-  
-  main {
-    padding: 10px;
-  }
-  
-  section {
-    margin-bottom: 15px;
-  }
-  
-  img {
+    text-decoration: none;
+}
+
+.social-container {
+    display: flex;
+    /* Располагает элементы в ряд */
+    gap: 8px;
+    /* Фиксированное расстояние между кнопками (меняйте значение по желанию) */
+}
+
+.vk,
+.tch {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 50px;
+    color: #013220;
+    background-color: #dda0dd;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main {
+    padding: 16px;
+}
+
+img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 16px;
     object-fit: cover;
-  }
-  
-  .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px;
-    color: white;
-    text-align: center;
-  }
-  
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin: 0;
+
+}
+
+.text-overlay {
+    font-size: 24px;
+    font-weight: bold;
+    color: #013220;
+}
+
 footer {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;     /* Центрирование по вертикали */
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
+    padding: 8px; 
     bottom: 0;
     width: 100%;
 }
