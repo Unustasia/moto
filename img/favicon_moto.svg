@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <!-- Рама мотоцикла -->
+  <path d="M3 12 L6 8 L10 8 L12 12 Z" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Переднее колесо -->
+  <circle cx="13" cy="12" r="2" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Заднее колесо -->
+  <circle cx="4" cy="12" r="2" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Руль -->
+  <line x1="6" y1="7" x2="7" y2="6" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Сиденье -->
+  <rect x="7" y="8" width="3" height="1" fill="none" stroke="#000" stroke-width="1"/>
+</svg>
