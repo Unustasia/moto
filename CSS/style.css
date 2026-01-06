@@ -13,7 +13,10 @@ header {
     /* Распределяет элементы по краям */
     align-items: center;
     padding: 16px;
-    background-color: #bfbfbf;
+    
+    background-color: hsla(0, 0%, 50%, 0.8);
+    backdrop-filter: blur(1px);         /* размытие фона за элементом */
+    -webkit-backdrop-filter: blur(1px); /* для Safari */
 
     width: 100%;
     box-sizing: border-box;
@@ -36,6 +39,7 @@ header {
     background-color: #dda0dd;
     cursor: pointer;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .social-container {
@@ -48,12 +52,12 @@ header {
 .vk,
 .tch {
     padding: 8px 8px;
-    border: none;
     border-radius: 50px;
     color: #013220;
     background-color: #dda0dd;
     cursor: pointer;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
