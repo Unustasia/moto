@@ -23,14 +23,11 @@ header {
     opacity: .95;
 }
 
-header {
-    position: fixed;
-}
-
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #013220;
+    text-decoration: none;
 }
 
 .menu {
@@ -52,7 +49,7 @@ header {
 
 .vk,
 .tch {
-    padding: 8px 8px;
+    padding: 8px 7px;
     border-radius: 50px;
     color: #013220;
     background-color: #dda0dd;
@@ -83,7 +80,7 @@ img {
     width: 100%;
     aspect-ratio: 1 / 1; /* ширина и высота 1 к 1*/
     border-radius: 16px;
-    background-size: cover;
+    background-size: contain;
     background-image: url("https://sun9-25.userapi.com/s/v1/ig2/JXVracODvSWLJSiw2NMyORDm3X3gUf02r_6zgP-jq85Ej8d8F_V1sB3V93Je3FYkAp_6GnBniaOAxzcov1fh6eug.jpg?quality=96&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080&from=bu&cs=1080x0");
 }
 
